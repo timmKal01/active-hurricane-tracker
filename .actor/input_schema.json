@@ -1,0 +1,31 @@
+{
+    "title": "Active Hurricane & Tropical Storm Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "basin": {
+            "title": "Basin",
+            "type": "string",
+            "editor": "select",
+            "description": "Restrict to one basin. Leave as \"All\" to return every currently active storm NHC is tracking.",
+            "enum": ["all", "atlantic", "eastern-pacific", "central-pacific"],
+            "enumTitles": ["All basins", "Atlantic", "Eastern Pacific", "Central Pacific"],
+            "default": "all"
+        },
+        "minimumClassification": {
+            "title": "Minimum classification",
+            "type": "string",
+            "editor": "select",
+            "description": "Only return storms at or above this intensity classification.",
+            "enum": ["any", "TD", "TS", "HU"],
+            "enumTitles": [
+                "Any (including invests/potential tropical cyclones)",
+                "Tropical Depression or stronger",
+                "Tropical Storm or stronger",
+                "Hurricane/Typhoon strength only"
+            ],
+            "default": "any"
+        }
+    },
+    "required": []
+}

@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "active-hurricane-tracker",
+    "title": "Active Hurricane & Tropical Storm Tracker",
+    "description": "Get all currently active Atlantic and Eastern/Central Pacific tropical cyclones — name, classification, intensity, position, movement, and forecast links — via the official US National Hurricane Center public feed.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

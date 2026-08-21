@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Active Hurricane & Tropical Storm Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Active storms",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
