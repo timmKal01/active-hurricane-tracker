@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "active-hurricane-tracker",
-    "title": "Active Hurricane & Tropical Storm Tracker",
+    "title": "Active Hurricane Tracker: Live NHC Storm Data",
     "description": "Get all currently active Atlantic and Eastern/Central Pacific tropical cyclones — name, classification, intensity, position, movement, and forecast links — via the official US National Hurricane Center public feed.",
     "version": "0.1",
     "meta": {
