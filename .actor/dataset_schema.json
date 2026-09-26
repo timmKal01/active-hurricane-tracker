@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "name",
+                    "classification",
+                    "maxSustainedWindMph",
+                    "minCentralPressureMb",
+                    "latitude",
+                    "longitude",
+                    "movementSpeedMph",
+                    "movementDirectionDegrees",
+                    "lastUpdate",
+                    "publicAdvisoryUrl",
+                    "forecastGraphicsUrl",
+                    "id"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "name": {
+                        "label": "Name",
+                        "format": "text"
+                    },
+                    "classification": {
+                        "label": "Classification",
+                        "format": "text"
+                    },
+                    "maxSustainedWindMph": {
+                        "label": "Max sustained wind mph",
+                        "format": "number"
+                    },
+                    "minCentralPressureMb": {
+                        "label": "Min central pressure mb",
+                        "format": "number"
+                    },
+                    "latitude": {
+                        "label": "Latitude",
+                        "format": "number"
+                    },
+                    "longitude": {
+                        "label": "Longitude",
+                        "format": "number"
+                    },
+                    "movementSpeedMph": {
+                        "label": "Movement speed mph",
+                        "format": "number"
+                    },
+                    "movementDirectionDegrees": {
+                        "label": "Movement direction degrees",
+                        "format": "number"
+                    },
+                    "lastUpdate": {
+                        "label": "Last update",
+                        "format": "date"
+                    },
+                    "publicAdvisoryUrl": {
+                        "label": "Public advisory URL",
+                        "format": "link"
+                    },
+                    "forecastGraphicsUrl": {
+                        "label": "Forecast graphics URL",
+                        "format": "link"
+                    },
+                    "id": {
+                        "label": "ID",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
