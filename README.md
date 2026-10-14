@@ -62,5 +62,5 @@ currently active.
 
 ## Related products
 
-- [Space Weather Alert](https://github.com/timmKal01/space-weather-alert) — solar/geomagnetic conditions, a different hazard-monitoring family
-- [Disaster Declaration Tracker](https://github.com/timmKal01/disaster-declaration-tracker) — FEMA disaster declarations, often triggered after a storm like this makes landfall
+- [Space Weather Alerts](https://apify.com/m_ctim/space-weather-alert): solar/geomagnetic conditions, a different hazard-monitoring family
+- [FEMA Disaster Declaration Tracker by State](https://apify.com/m_ctim/disaster-declaration-tracker): FEMA disaster declarations, often triggered after a storm like this makes landfall
